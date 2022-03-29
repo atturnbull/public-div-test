@@ -1,13 +1,15 @@
 {
   "name": "public-div-test",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a public div test",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "dist": "dist"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel lib --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/atturnbull/public-div-test/issues"
   },
-  "homepage": "https://github.com/atturnbull/public-div-test#readme"
+  "homepage": "https://github.com/atturnbull/public-div-test#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
 }
