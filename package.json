@@ -1,0 +1,27 @@
+{
+  "name": "public-div-test",
+  "version": "0.0.1",
+  "description": "a public div test",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atturnbull/public-div-test.git"
+  },
+  "keywords": [
+    "test",
+    "public",
+    "div"
+  ],
+  "author": "admtea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atturnbull/public-div-test/issues"
+  },
+  "homepage": "https://github.com/atturnbull/public-div-test#readme"
+}
