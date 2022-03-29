@@ -10,7 +10,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var TestDiv = function TestDiv(props) {
-  return /*#__PURE__*/_react["default"].createElement("div", null, "I am a private repository!");
+  return /*#__PURE__*/_react["default"].createElement("div", null, "I am a public repository!");
 };
 
 var _default = TestDiv;
